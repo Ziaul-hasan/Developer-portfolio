@@ -213,3 +213,54 @@ hr{
     text-align: center;
     margin-top: 30px;
 }
+
+/* footer section styles */
+.foot{
+    display: flex;
+    gap: 80px;
+    margin-top: 60px;
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+}
+.address{
+    width: 60%;
+}
+.add-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.add-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.icon a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.form{
+    width: 30%;
+}
+.field{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 14px 30px;
+    border: 0;
+}
+textarea{
+    border: 0;
+    width: 100%;
+    padding: 14px 30px;
+}
+.submit{
+    font-size: 16px;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 14px 30px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
