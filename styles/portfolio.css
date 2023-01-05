@@ -117,3 +117,49 @@ main{
     font-weight: 400;
     margin-bottom: 10px;
 }
+
+/* what I do section */
+.work{
+    margin-top: 130px;
+    padding: 60px 120px;
+}
+.work-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.work-description{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.flex-box{
+    display: flex;
+    gap: 25px;
+    
+    
+}
+.app{
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.app img{
+    width: 30px;
+    margin-bottom: 10px;
+}
+.app-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.app-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
