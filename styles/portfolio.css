@@ -390,12 +390,100 @@ textarea{
     .add-info{
         font-size: 14px;
     }
-    .field , text-area{
+    .field , textarea{
         padding: 10px 20px;
         font-size: 12px;
     }
     .submit{
         font-size: 14px;
         padding: 10px 20px;
+    }
+}
+
+/* responsive desing for tablet device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .header{
+        background-color: #FFF8F3;
+        background-image: url('..//images/header_bg.png'), url('..//images/developer.png');
+        background-repeat: no-repeat;
+        background-position: bottom right, bottom left;
+        background-size: 500px 300px, 80px 300px;
+    }
+    .normal-nav{
+        display: none;
+    }
+    .responsive-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20px;
+        padding: 30px 0;
+    }
+    .fa-sharp{
+        font-size: 24px;
+    }
+    .banner{
+        margin: 0 80px;
+    }
+    .banner-title{
+        font-size: 40px;
+    }
+    .banner-subtitle{
+        font-size: 30px;
+    }
+    .btn-primary , .btn-line{
+        font-size: 14px;
+        padding: 10px 15px;
+    } 
+    .about , .work , .resume{
+        margin-top: 50px;
+        padding: 30px 30px;
+        background-color: #FFF8F3;
+        border-radius: 10px;
+    }
+    .section-title , .work-title , .resume-title , .add-title{
+        font-size: 30px;
+    }
+    .section-description , .work-description{
+        font-size: 16px;
+    }
+    .info P{
+        font-size: 14px;
+    }
+    .info h3{
+        font-size: 16px;
+    }
+    .flex-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .edu-title{
+        font-size: 28px;
+    }
+    .degree{
+        font-size: 20px;
+    }
+    .college{
+        font-size: 16px;
+    }
+    .edu-description{
+        font-size: 14px;
+    }
+    .foot{
+        display: flex;
+        gap: 10px;
+        padding: 30px 30px;
+    }
+    .address{
+        width: 50%;
+    }
+    .form{
+        width: 50%;
+    }
+    .field , textarea{
+        padding: 12px 24px;
+        font-size: 14px;
+        width: 80%;
     }
 }
