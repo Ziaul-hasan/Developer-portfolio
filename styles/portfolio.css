@@ -352,6 +352,9 @@ textarea{
         gap: 10px;
         padding: 10px;
     }
+    .app{
+        box-shadow: 3px 3px 10px gray;
+    }
     .app img{
         width: 24px;
     }
